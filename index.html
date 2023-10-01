@@ -13,21 +13,26 @@
 <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Pheripheralx</a>
+          <a class="navbar-brand" href="">Pheripheralx</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">NOSOTROS</a>
+                <a class="nav-link active" aria-current="page" href="#nosotros">NOSOTROS</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">TRABAJOS</a>
+                <a class="nav-link active" aria-current="page" href="#trabajos">NUESTRO TRABAJO</a>
               </li>
-              
               <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">TIENDA</a>
+                <a class="nav-link active" aria-current="page" href="#productos">PRODUCTOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#tu-idea">TU IDEA</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#contacto">CONTACTO</a>
               </li>
             </ul>
           </div>
@@ -37,7 +42,7 @@
         <h1 class="text-overlay">Pheripheralx, your own design. </h1>
         <img class="banner-home" src="imagenes/banner.jpg" alt="foto de inicio">
     </div>
-    <section class="about-us"> 
+    <section class="about-us" id="nosotros"> 
         <h2 class="title">Quienes somos</h2>
         <p>En Pheripheralx nos apasiona la personalización de periféricos como nunca antes lo has experimentado. Somos un equipo de entusiastas de la tecnología y gamers apasionados que creemos en la importancia de la individualidad y el rendimiento. Nuestra misión es brindarte la oportunidad de elevar tus dispositivos a un nivel superior, reflejando tu estilo único y tus necesidades precisas. Desde teclados y ratones hasta auriculares y mousepads, estamos aquí para transformar tus periféricos en obras maestras personalizadas. Además, ofrecemos servicios especializados como la lubricación y el cambio de switches para tus mouse y teclados, así como la reparación de bases y la customización de mousepads, para asegurarnos de que tu equipo funcione a la perfección. Con años de experiencia en la industria, garantizamos productos de altisima calidad y servicios de diseño excepcionales. Únete a nosotros en un viaje donde la personalización se convierte en una experiencia verdaderamente innovadora.</p>  
     </section>
@@ -60,7 +65,7 @@
         </div>
     </section>
 
-    <article class="work">
+    <article class="work" id="trabajos">
         <h2 class="title">Nuestro trabajo</h2>
         
         <section class="section">
@@ -99,7 +104,7 @@
         </section>
     </article>
 
-    <article class="shop">
+    <article class="shop" id="productos">
         <h2 class="">Productos</h2>
         <section class="product-section">
             <div class="product">
@@ -123,7 +128,7 @@
 
 
     
-    <article class="customization">
+    <article class="customization" id="tu-idea">
         <div class="custom">
         <h2 class="title">Encargá tu customización</h2>
         <form action="tu_archivo_de_procesamiento.php" method="POST">
@@ -148,7 +153,7 @@
         
     </article>
 
-    <footer>
+    <footer id="contacto">
         <div class="social-media">
             <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
             <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
