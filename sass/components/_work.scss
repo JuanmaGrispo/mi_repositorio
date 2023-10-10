@@ -1,0 +1,49 @@
+/* _work.scss */
+.work {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #cecece;
+    padding: 1rem;
+    border: 0.2rem solid #ddd;
+  
+    h2 {
+      text-transform: uppercase;
+      color: #1e1b1b;
+    }
+  
+    h3 {
+      text-transform: uppercase;
+      color: rgb(234, 234, 234);
+    }
+  }
+  
+  .image-grid {
+    @include flex-center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0.4rem;
+  
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  
+  .section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    margin: 0 10rem 0 10rem;
+    padding: 2rem;
+    background-color: #1e1b1b;
+    border: 1px solid #ddd;
+  }
+  
+  @media (max-width: 768px) {
+    .image-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  

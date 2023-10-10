@@ -1,0 +1,50 @@
+/* _staff.scss */
+.staff {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+    background-color: rgb(96, 43, 29);
+    padding: 0 0 3rem 0;
+  
+    h2 {
+      font-size: 4rem;
+      text-transform: uppercase;
+    }
+  }
+  
+  .staff-members {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+  
+  .staff-member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  
+    img {
+      width: auto;
+      height: 20rem;
+      border-radius: 50%;
+    }
+  
+    p {
+      font-size: 3rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .staff-members {
+      flex-direction: column;
+      align-items: center;
+      gap: 2rem;
+    }
+  
+    .staff-member {
+      margin-bottom: 2rem;
+    }
+  }
+  
