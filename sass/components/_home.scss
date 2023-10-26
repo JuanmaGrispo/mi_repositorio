@@ -1,0 +1,55 @@
+.home {
+  display: flex;
+  flex-direction: column;
+}
+
+.banner-home {
+  display: flex;
+  max-width: 100%;
+  align-items: center;
+  justify-content: center;
+  min-height: 70rem;
+  background-image: url("/imagenes/banner.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.main-title {
+  color: white;
+  font-size: 5rem;
+  text-align: center;
+}
+
+.about-us {
+  padding: 2rem;
+  text-align: center;
+}
+
+.title {
+  font-size: 2rem;
+}
+
+.justify-text {
+  text-align: justify;
+}
+
+/* Media queries para hacerlo responsive */
+
+@media (max-width: 768px) {
+  .home {
+    align-items: center;
+  }
+
+  .banner-home {
+    min-height: 40rem;
+    background-attachment: scroll; /* Volver a scroll para dispositivos móviles */
+  }
+
+  .main-title {
+    font-size: 3rem;
+  }
+
+  .about-us {
+    padding: 1rem;
+  }
+}
